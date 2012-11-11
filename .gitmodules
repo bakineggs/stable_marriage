@@ -1,0 +1,3 @@
+[submodule "bonsai"]
+	path = bonsai
+	url = git://github.com/bakineggs/bonsai.git
