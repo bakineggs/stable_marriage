@@ -12,7 +12,7 @@ func main() {
 	}
 
 	interpreter := bonsai.Interpreter{Techniques: techniques}
-	var root bonsai.Node
-	interpreter.Interpret("", &root)
+	root := bonsai.MakeRootNode()
+	interpreter.Interpret("", root)
 	fmt.Print(root.ToString())
 }
