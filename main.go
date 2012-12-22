@@ -4,7 +4,7 @@ import "fmt"
 import "./bonsai/interpreter"
 
 func main() {
-	rules := []bonsai.Rule{}
+	rules := CompiledRules()
 	techniques := []bonsai.Technique{}
 
 	for _, technique := range techniques {
